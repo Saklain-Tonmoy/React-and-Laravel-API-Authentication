@@ -10,10 +10,12 @@ export class ForgotPassword extends Component {
                         <h2 className="pb-3 text-center">Forgot Password</h2>
                         <form>
                             <div className="form-group">
-                                <label for="email">Email address</label>
+                                <label htmlFor="email">Email address</label>
                                 <input type="email" className="form-control" id="email"/>
                             </div>
                             <button type="submit" className="btn btn-success btn-block">Submit</button>
+                            <br/>
+                            <Link to="/login"><span className="text-center">back to the Login Page</span></Link>
                         </form>
                     </div>
                 </div>
